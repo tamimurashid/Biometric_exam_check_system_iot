@@ -172,13 +172,13 @@ function jsonResponse(obj) {
 }
 
 
-🚀 Deploy it:
+###🚀 Deploy it:
 
-    Click Deploy → Test deployments → Web app
+   # Click Deploy → Test deployments → Web app
 
-    Set access to “Anyone”
+   # Set access to “Anyone”
 
-    Copy the deployment URL or the deployment ID
+   # Copy the deployment URL or the deployment ID
 
 3. 🔌 Sheet.Best Setup
 
