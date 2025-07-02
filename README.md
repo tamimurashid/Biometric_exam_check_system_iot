@@ -1,6 +1,3 @@
-Here's a revised `README.md` for your Biometric Exam Room Access Control System, formatted for clarity, engagement, and ease of use.
-
-```markdown
 # 🔐 Biometric Exam Room Access Control System (ESP32 + Google Sheets)
 
 This project outlines a **crash-proof IoT fingerprint access control system** specifically designed for **exam rooms**. It leverages an **ESP32** microcontroller, an **R307 fingerprint sensor**, and a robust backend built with **Google Apps Script** and **Google Sheets** for real-time user validation and access logging.
@@ -58,6 +55,8 @@ biometric\_exam\_check\_system\_iot/
 
 ---
 
+
+
 ## 🛠️ Setup Instructions
 
 Follow these steps to set up your Biometric Exam Room Access Control System:
@@ -89,8 +88,6 @@ This sheet records all access attempts.
 ---
 
 ### 2. ✍️ Google Apps Script
-
-Open the **script editor** (Extensions > Apps Script) of your Google Sheet and paste the following JavaScript code:
 
 ```javascript
 function doPost(e) {
@@ -258,5 +255,3 @@ This project is licensed under the [MIT License](https://www.google.com/search?q
 Cybersecurity Student & IoT Dev
 GitHub: [@tamimurashid](https://www.google.com/search?q=https://github.com/tamimurashid)
 
-```
-```
