@@ -16,16 +16,16 @@ HardwareSerial mySerial(2);
 Adafruit_Fingerprint finger = Adafruit_Fingerprint(&mySerial);
 
 // WiFi and cloud config
-const char* ssid = "Reindeer";
-const char* password = "200120022003";
+const char* ssid = "Your ssid";
+const char* password = "your password";
 
 const String deviceRoom = "PG12"; // This device's room
 const char* host = "script.google.com";
 const int httpsPort = 443;
-const String server_id = "AKfycby1d8dDi74HWhSRHVeziIv2-sf-Bsa-y3369Cdt_nspXXPcQqkoJhDj_MTSkTpFQDFU";
+const String server_id = "Add your deployment from google sheet here";
 
 const char* sheetHost = "sheet.best";
-const char* sheetUUID = "4145c95d-615c-4dcd-9504-f88353d873f5"; // REPLACE with your real UUID
+const char* sheetUUID = "add sheet.best id in order to fetch result from google sheet"; // REPLACE with your real UUID
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
